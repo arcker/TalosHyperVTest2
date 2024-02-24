@@ -16,9 +16,9 @@ tasks:
     desc: Bootstrap the Talos cluster
     dir: "{{.TALOS_DIR}}"
     cmds:
-      - task: bootstrap-gensecret
-      - task: bootstrap-genconfig
-      - task: bootstrap-apply
+      #- task: bootstrap-gensecret
+      #- task: bootstrap-genconfig
+      # - task: bootstrap-apply
       - task: bootstrap-install
       - task: fetch-kubeconfig
       - task: bootstrap-apps
