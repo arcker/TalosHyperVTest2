@@ -11,3 +11,4 @@ resources:
   - ./postfinance.yaml
   - ./stakater.yaml
   - ./xenitab.yaml
+  - ./metallb.yaml
