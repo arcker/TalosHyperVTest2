@@ -17,7 +17,8 @@
   }
 //   ,
 //   "runArgs": [
-//     // Use the network stack of the host machine
-//     "--net=host"
+//     "--cap-add=NET_ADMIN",
+//     "--device","/dev/net/tun",
+//     "--privileged"
 // ]
 }
